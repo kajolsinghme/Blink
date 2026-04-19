@@ -1,10 +1,10 @@
-# 🚀 Blink – Instant Data Delivery
+# Blink – Instant Data Delivery
 
 Blink is a lightweight backend service that improves API performance using Redis caching. It reduces response time by storing frequently accessed data in memory and serving it instantly.
 
 ---
 
-## ⚡ Features
+## Features
 
 - Redis-based caching (TTL supported)
 - Cache HIT / MISS logic
@@ -13,7 +13,7 @@ Blink is a lightweight backend service that improves API performance using Redis
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - Node.js
 - Express.js
@@ -21,7 +21,7 @@ Blink is a lightweight backend service that improves API performance using Redis
 
 ---
 
-## 🐳 Run Redis (Docker)
+## Run Redis (Docker)
 
 ```bash
 docker run -d -p 6379:6379 --name blink-redis redis
